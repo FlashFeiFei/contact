@@ -1,0 +1,60 @@
+/*默认样式*/
+.search {
+    margin: 0 auto;
+    width: 658px;
+}
+
+.searchImg {
+    width: 270px;
+    height: 129px;
+    margin: 0 auto;
+}
+
+.SearchContainer {
+    display: flex;
+}
+
+.SearchContainerInput {
+    border: 2px solid #c4c7ce;
+    border-radius: 10px 0 0 10px;
+    width: 550px;
+    height: 44px;
+}
+
+.SearchContainerInput:hover {
+    border-color: #9ca3af;
+}
+
+.SearchContainerInput:focus {
+    border-color: #4e6ef2;
+    outline: none;
+}
+
+.SearchContainerButton {
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    font-size: 17px;
+    width: 108px;
+    height: 44px;
+    color: #ffffff;
+}
+
+/*鼠标滚动到一定距离后搜索框固定在头部的样式*/
+.searchByBar {
+    width: 100vw;
+    height: 50px;
+    margin: 0 auto;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.searchImgByBar {
+    width: 101px;
+    height: 33px;
+}
+
+
+

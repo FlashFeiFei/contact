@@ -1,0 +1,29 @@
+.list {
+
+}
+
+.list > ul > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-block-end: 1px solid rgba(5, 5, 5, 0.06);
+}
+
+.operation ul {
+    display: flex;
+
+}
+
+.operation ul li {
+    color: #4e6ef2;
+    border-right: 1px solid rgba(5, 5, 5, 0.06);
+    padding: 5px;
+}
+
+.operation ul li:last-child {
+    border-right: none;
+}
+
+.operation ul li:hover {
+    cursor: pointer;
+}
